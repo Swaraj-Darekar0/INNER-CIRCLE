@@ -38,7 +38,7 @@ window.onload = function(){
             localStorage.setItem("active-dark-light-mode", "false");
         }
     };
-
+    
     //display dark-light-mode
     if(localStorage.getItem("active-dark-light-mode") === 'true') {
         document.body.classList.add("active-dark-light-mode");
