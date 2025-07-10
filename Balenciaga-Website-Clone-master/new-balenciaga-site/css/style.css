@@ -1084,7 +1084,65 @@ body.active-dark-light-mode input[type=date] {
     }
 }
 
-.index-content-labubu,
+/* The Art of Labubu Section Styles */
+.index-content-labubu {
+    padding: 20px; /* Default padding */
+}
+
+.index-content-labubu h2 {
+    font-size: 48px; /* Default font size for h2 */
+}
+
+.index-content-labubu p {
+    font-size: 18px; /* Default font size for paragraph */
+}
+
+@media(max-width: 1024px) {
+    .index-content-labubu {
+        padding: 15px; /* Adjusted padding for medium screens */
+    }
+
+    .index-content-labubu h2 {
+        font-size: 38px; /* Adjusted font size for medium screens */
+    }
+
+    .index-content-labubu p {
+        font-size: 16px; /* Adjusted font size for medium screens */
+    }
+}
+
+@media(max-width: 768px) {
+    .index-content-labubu {
+        padding: 10px; /* Adjusted padding for small screens */
+    }
+
+    .index-content-labubu h2 {
+        font-size: 32px; /* Adjusted font size for small screens */
+    }
+
+    .index-content-labubu p {
+        font-size: 15px; /* Adjusted font size for small screens */
+    }
+
+    .index-content-labubu .grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+@media(max-width: 480px) {
+    .index-content-labubu {
+        padding: 5px; /* Further adjusted padding for very small screens */
+    }
+
+    .index-content-labubu h2 {
+        font-size: 28px; /* Further adjusted font size for very small screens */
+    }
+
+    .index-content-labubu p {
+        font-size: 14px; /* Further adjusted font size for very small screens */
+    }
+}
+
 .index-content-soldout {
     margin-top: 50px; /* Increased margin to prevent overlap */
 }
